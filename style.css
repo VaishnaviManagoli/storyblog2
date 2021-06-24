@@ -1,0 +1,38 @@
+.banner{
+background: rgb(9, 46, 168);
+width: 1500px;
+height: 300px;
+position:relative;
+display: inline-block;
+
+}
+.menu{
+background: rgb(164, 94, 245);
+border-color: rgb(238, 9, 123);
+border-style: solid;
+overflow: hidden;
+}
+.menu a{
+ float: left;
+ display: block;
+ color:cyan;
+ text-align: center;
+ padding:14px 20px ;
+}
+.menu a:hover{
+    background-color: rgb(162, 94, 240);
+    color: rgb(226, 122, 226)
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.item{
+flex-grow:3;
+}
+.item2{
+    flex-grow:2;
+    }
